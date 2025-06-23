@@ -1,7 +1,7 @@
 import React from 'react';
 import { Loader } from '../../components/Loader';
 import { usePeople } from '../../hooks/usePeople';
-import { PeopleTable } from './compenents/PeopleTable';
+import { PeopleTable } from './components/PeopleTable';
 
 export const PeoplePage: React.FC = () => {
   const {

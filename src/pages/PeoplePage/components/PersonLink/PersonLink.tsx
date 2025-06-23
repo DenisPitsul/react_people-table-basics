@@ -7,7 +7,7 @@ type Props = {
   person: Person;
 };
 
-export const PeopleLink: React.FC<Props> = ({ person }) => {
+export const PersonLink: React.FC<Props> = ({ person }) => {
   return (
     <Link
       to={`../${person.slug}`}
